@@ -1,0 +1,42 @@
+{
+  "name": "e_commerce_backend",
+  "version": "1.0.0",
+  "description": "This is a NodeJs/Express API for an e-commerce web application that allows admin to add,update and delete products. The users would be able to see uploaded products, view product details and manage cart features. It also utilizes mongoDB for storage of data ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "Products",
+    "goods",
+    "add",
+    "to",
+    "cart",
+    "admin",
+    "users",
+    "ecommerce",
+    "buy",
+    "sell"
+  ],
+  "author": "Callistus Anwara",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http-status": "^2.0.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2"
+  }
+}
